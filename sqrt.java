@@ -3,8 +3,6 @@ public class sqrt {
  public static void main(String[] args) {
  double result = getSqrt(Double.parseDouble(args[0]));
  System.out.println("Answer: " + result);
-
-
  }
 
  public static double getSqrt(double number) {
@@ -17,7 +15,7 @@ public class sqrt {
  System.out.println(s);
  System.out.println("Current Error : " + (s - number/s));
  }
- System.out.println("Current Error : " + (s - number/s)); 
+ System.out.println("Final Error : " + (s - number/s)); 
  
  return s;
  }
